@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/default.min.css">
+    <link rel="stylesheet" href="css/open-iconic.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div data-target="tab0" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Reduce Greenhouse Gas Emissions</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="cloudy"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab0)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont0"></div>
+            <div data-target="tab1" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Eliminate Use of Chlorinated and Brominated Solvents</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="bar-chart"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab1)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont1"></div>
+            <div data-target="tab2" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Increase Waste Recycling </br> Rate</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="aperture"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab2)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont2"></div>
+        </div>
+        <div id="contTabs">
+            <div id="tab0" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Reduce Greenhouse Gas Emissions</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab0)">+</div>
+                </div>
+            </div>
+            <div id="tab1" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Eliminate Use of Chlorinated and Brominated Solvents</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab1)">+</div>
+                </div>
+            </div>
+            <div id="tab2" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Increase Waste Recycling Rate</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab2)">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div data-target="tab3" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Reduce Hazardous Waste Generation</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="briefcase"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab3)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont3"></div>
+            <div data-target="tab4" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Reduce Water Consumption</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="chat"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab4)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont4"></div>
+            <div data-target="tab5" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Implement Water Best Management Practices</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="people"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab5)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont5"></div>
+        </div>
+        <div id="contTabs1">
+            <div id="tab3" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Reduce Hazardous Waste Generation</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab3)">+</div>
+                </div>
+            </div>
+            <div id="tab4" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Reduce Water Consumption</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab4)">+</div>
+                </div>
+            </div>
+            <div id="tab5" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Implement Water Best Management Practices</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab5)">+</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div data-target="tab6" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Reduce Workers’ Exposure to Hazardous Substances</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="brush"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab6)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont6"></div>
+            <div data-target="tab7" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Reduce Ergonomic Risk</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="flash"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab7)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont7"></div>
+            <div data-target="tab8" class="col-12 col-sm-4 tile col">
+                <div class="row pt-3 pb-3">
+                    <div class="col-12 pb-5">
+                        <h5 class="font-weight-bold">Increase Implementation of Level 1 Mistake Proofing Safety Controls</h5>
+                    </div>
+                    <div class="col-5">
+                        <span class="oi h1" data-glyph="terminal"></span>
+                    </div>
+                    <div class="col-7">
+                        <div class="row no-gutters">
+                            <div class="col-10">
+                                <p class="font-weight-light text-right small m-0">2020 GOAL 15%</p>
+                                <p class="text-right small m-0">2018 0%</p>
+                            </div>
+                            <div class="col-2 text-center">
+                                <span id="more" class="h2 font-weight-light" onclick="openTab(tab8)">+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-sm-none" id="mobile-cont8"></div>
+        </div>
+        <div id="contTabs2">
+            <div id="tab6" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Reduce Workers’ Exposure to Hazardous Substances</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab6)">+</div>
+                </div>
+            </div>
+            <div id="tab7" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Reduce Ergonomic Risk</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab7)">+</div>
+                </div>
+            </div>
+            <div id="tab8" class="row tab bg-blue pt-4 pt-md-4 pb-md-5 pl-md-5 d-none">
+                <div class="col-10 col-sm-11">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white">Increase Implementation of Level 1 Mistake Proofing Safety Controls</h2>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="line"></p>
+                            <p class="text-light-blue h5">48% Reduction in High and 27%
+                                <br>Reduction in Medium Ergonomic Risks</p>
+                            <p class="text-white m-0">High Ergonomic Risk & Medium Ergonomic Risk</p>
+                            <p class="text-white font-weight-light">(Million Metric Tons CO2e)</p>
+                            <figure>
+                                <img src="/_assets/graph.PNG" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-white font-weight-light">Reducing ergonomic risk lays the groundwork for further reductions in work-related injuries.
+                                This goal is an extension of UTC’s long-standing focus on the health and safety of our employees,
+                                and targets by 2020 a 50 percent reduction in the ergonomic risk of tasks assessed by internal
+                                or third-party risk assessors as high and medium risk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 col-sm-1 text-center">
+                    <div id="close" class="text-white h2 font-weight-light" onclick="closeTab(tab8)">+</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

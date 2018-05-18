@@ -1,0 +1,76 @@
+*{
+    transition:all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.active{
+     background-color: $deepBlue!important;
+        & h5{
+            color: $green;
+        }
+        & span{
+            &[data-glyph]{
+            color: $green;            
+            }
+        }
+    }
+    .tab{
+        border: 1px solid $white;
+    }
+.tile{
+    border: 1px solid $white;
+    background-color: $green;
+    color:$white;
+    &:hover{
+        background-color: $deepBlue;
+        & h5{
+            color: $green;
+        }
+        & span{
+            &[data-glyph]{
+            color: $green;            
+            }
+        }
+    }
+     & span{
+            &[data-glyph]{
+            color: $lightGreen;
+            
+            }
+        }
+}
+.bg-blue{
+    background-color: $deepBlue;
+}
+.text-light-blue{
+       color: $lightBlue; 
+    }
+img{
+    width: 100%;
+}
+#close{   
+    transform: rotate(45deg);
+       cursor: pointer;
+       text-align: right;
+}
+#more{
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn .3s ease-in 1 forwards;
+}
+
+.is-paused {
+  animation-play-state: paused;
+}
+.line{
+    background-color: $white;
+    height: 6px;
+    width: 30%;
+}
